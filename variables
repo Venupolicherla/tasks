@@ -1,19 +1,18 @@
 
-public class operators {
+public class Selectiondemo {
 
 	public static void main(String[] args) {
 
-		int m=4;
-		int n=6;
-		int r1=m+n;
-		int r2=m-n;
-		int r3=m*n;
-		int r4=m/n;
-		int r5=m%n;
-		m=m+n;//m+=n, m++
-		m=++n; 
-		System.out.println(n);
-		System.out.println(m);
+		int j=13;
+		
+		if(j==0)
+			System.out.println("nothing");
+		else if(j%2==0)
+			System.out.println("even");
+		else
+		System.out.println("odd");
+		
+		
 	}
 
 }
