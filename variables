@@ -1,0 +1,13 @@
+
+public class variable {
+
+	public static void main(String[] args) {
+
+		int a=53423233;
+		a=1904;
+		float f=5.55;
+		
+		System.out.println(a);
+	}
+
+}
