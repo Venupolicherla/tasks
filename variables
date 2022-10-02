@@ -1,18 +1,19 @@
 
-public class variableDemo {
+public class operators {
 
 	public static void main(String[] args) {
 
-		int a=53;  //4 bytes-->32 bits
-		long l= 5748392l; //8 bytes
-		float f=5.5f;  //4 bytes
-		double d= 6.5;//8  byes
-		byte b =10;  //1 byte--> 8 bits--->-127 to 127
-		
-		char c='A';
-		c=66;
-		
-		System.out.println(c);
+		int m=4;
+		int n=6;
+		int r1=m+n;
+		int r2=m-n;
+		int r3=m*n;
+		int r4=m/n;
+		int r5=m%n;
+		m=m+n;//m+=n, m++
+		m=++n; 
+		System.out.println(n);
+		System.out.println(m);
 	}
 
 }
