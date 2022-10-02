@@ -4,14 +4,28 @@ public class Selectiondemo {
 	public static void main(String[] args) {
 
 		int j=13;
+		int i=0;
+		String d="abc";
 		
-		if(j==0)
-			System.out.println("nothing");
-		else if(j%2==0)
-			System.out.println("even");
-		else
-		System.out.println("odd");
+//		if(j==0)
+//			System.out.println("nothing");
+//		else if(j%2==0)
+//			System.out.println("even");
+//		else
+//		System.out.println("odd");
+		i=j>10?1:2;
 		
+		switch(d)
+		{
+		case "abc":
+			System.out.println("one");
+			break;
+		case "pqr":
+			System.out.println("two");
+			break;
+			default:
+				System.out.println("mismatch");
+		}
 		
 	}
 
