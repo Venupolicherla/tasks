@@ -1,13 +1,18 @@
 
-public class variable {
+public class variableDemo {
 
 	public static void main(String[] args) {
 
-		int a=53423233;
-		a=1904;
-		float f=5.55;
+		int a=53;  //4 bytes-->32 bits
+		long l= 5748392l; //8 bytes
+		float f=5.5f;  //4 bytes
+		double d= 6.5;//8  byes
+		byte b =10;  //1 byte--> 8 bits--->-127 to 127
 		
-		System.out.println(a);
+		char c='A';
+		c=66;
+		
+		System.out.println(c);
 	}
 
 }
