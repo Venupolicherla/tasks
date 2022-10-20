@@ -3,13 +3,9 @@ public class variable {
 
 	public static void main(String[] args) {
 
-		int a=53423233;
-		int b=10;
-		int c= 100;
-		int z=11;
-		float f=5.55;
-String name ="Poorna";
-		System.out.println(a);
+		int a =10;
+		int b=102;
+		System.out.println(a+b);
 	}
 
 }
