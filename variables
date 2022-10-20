@@ -6,7 +6,7 @@ public class variable {
 		int a=53423233;
 		int b=10;
 		int c= 100;
-		
+		int z=11;
 		float f=5.55;
 		
 		System.out.println(a);
