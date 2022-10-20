@@ -8,7 +8,7 @@ public class variable {
 		int c= 100;
 		
 		float f=5.55;
-		
+String name ="Poorna";
 		System.out.println(a);
 	}
 
