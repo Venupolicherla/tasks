@@ -3,11 +3,10 @@ public class variable {
 
 	public static void main(String[] args) {
 
-		int a=53423233;
-		int b=10;
-		float f=5.55;
-		
-		System.out.println(a);
+
+		int a =10;
+		int b=102;
+		System.out.println(a+b);
 	}
 
 }
