@@ -3,7 +3,7 @@ public class variable {
 
 	public static void main(String[] args) {
 
-		int a=53423233;
+		int a=53423233,b=10;
 		a=1904;
 		float f=5.55;
 		
